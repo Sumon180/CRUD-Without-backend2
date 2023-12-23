@@ -142,6 +142,7 @@ const Home: React.FC = () => {
               name="username"
               value={data.username}
               onChange={handleChange}
+              required
               className="bg-transparent border rounded px-3 py-2"
             />
           </div>
@@ -150,6 +151,7 @@ const Home: React.FC = () => {
             <input
               type="email"
               name="email"
+              required
               value={data.email}
               onChange={handleChange}
               className="bg-transparent border rounded px-3 py-2"
